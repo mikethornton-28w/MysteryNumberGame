@@ -1,11 +1,27 @@
-# Sample Snack app
+# ICE2-MysteryNumber
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+The random number Guessing App is a simple application where (you) the user tries to guess the randomly generated number between 1 and 100. The app uses feedback messages as a means to display hints after each guesses in helping the player get closer to the correct answer.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Application Feature:
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+User Input Field:
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+    This is where the user enters their guesses via a text input.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+The Buttons:
+
+    Submit Button:
+
+    After typing a number the player taps the button to submit their guess.
+
+    Restart Game Button:
+
+    The Player gets to reset the game with a new random number and clears previous guesses and messages.
+
+Game Flow:
+
+    The App starts with a hidden random number between 1 and 100. From there the player gets to enter a number guess and taps submit. With the Feedback message function, it displays whether the user is correct or if their guess is too low or high and the messages displays a hint. The player continues guessing until they find the correct number. Once guessed correctly, they can Restart the game to play again with a new number.
+
+Screenshots:
+
+<img width="370" height="776" alt="Mystery Number" src="https://github.com/user-attachments/assets/b302c306-12b1-40dd-8ba2-87e772301753" />
